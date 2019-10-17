@@ -15,3 +15,6 @@ deploy:
   distributions: "sdist bdist_wheel" # Your distributions here
   on:
     branch: master
+
+script:
+  - pytest
