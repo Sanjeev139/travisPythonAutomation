@@ -8,6 +8,10 @@ python:
 
   - "3.6.1"
 
+before_script:
+  - pip install twine
+  - python setup.py sdist bdist_wheel
+
 deploy:
   provider: pypi
   user: "san3107"
