@@ -25,7 +25,7 @@ from setuptools import setup, find_packages
 
 
 # GitLab env value will now dynamically set the version (gallilama)
-
+"""
 if os.environ.get('CI_COMMIT_TAG'):
 
     version = os.environ['CI_COMMIT_TAG']
@@ -34,8 +34,7 @@ else:
 
     version = os.environ['CI_JOB_ID']
 	
-
-
+"""
 
 AUTHOR = 'Kount'
 
@@ -45,7 +44,7 @@ PROJECT = 'python_test'
 
 PROJECT_MODULE = 'python_test'
 
-VERSION = version
+VERSION = "1.0.1"
 
 PROJECT_URL = 'https://github.com/Sanjeev139/python-hello-world'
 
