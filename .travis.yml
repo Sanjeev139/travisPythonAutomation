@@ -1,0 +1,17 @@
+language: python
+
+python:
+
+  - "2.7"
+
+  - "3.5"
+
+  - "3.6.1"
+
+deploy:
+  provider: pypi
+  user: "san3107"
+  password: "Sanjeev@pip"
+  distributions: "sdist bdist_wheel" # Your distributions here
+  on:
+    branch: master
